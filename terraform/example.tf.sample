@@ -1,0 +1,17 @@
+//----------------------------------------------------------------------------
+// For each codecommit repository, create a block-pair of the resources below.
+// Replace "EXAMPLE" with the name of your repository.
+//----------------------------------------------------------------------------
+module "EXAMPLE-repo" {
+  source = "./modules/codecommit_repo"
+  repo-name = "EXAMPLE"
+}
+output "EXAMPLE-repo-ssh-url" {
+  value = "${module.EXAMPLE-repo.repo-ssh-url}"
+}
+
+
+//----------------------------------------------------------------------------
+// For each service user, create a block-pair of the resources below.
+// Replace "EXAMPLE" with the name of your service user account.
+//----------------------------------------------------------------------------

@@ -1,6 +1,10 @@
 # code-commit
 
-This repository contains Terraform configurations for managing AWS CodeCommit infrastructure.
+This repository contains Terraform configurations for managing software engineering basics with AWS infrastructure.
+
+* **AWS CodeCommit** - Revision control
+* **JetBrains Upsource** - Code Reviews
+* **AWS EC2 Registry** - Docker image repositories
 
 ## Deploying with Terraform
 

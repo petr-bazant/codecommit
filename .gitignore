@@ -1,0 +1,17 @@
+# Application IDE and output directories
+*.iml
+.vscode
+gen/
+working/
+.idea/
+
+# Terraform files
+\.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.tfstate.backup
+.tfstate
+remote-state-backend.tf
+
+test.tfvars
+backend.tfvars
